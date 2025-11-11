@@ -6,7 +6,7 @@ export default function ForBusiness() {
 
       <section className="hero" style={styles.hero}>
         <div style={styles.heroText}>
-          <h2>Transform Your Team with Future-Ready Skills</h2>
+          <h2>Transform Your Team with Future-Ready Skills.</h2>
           <p>We deliver engaging corporate training in AI, Data, Cloud, Cybersecurity, and more.</p>
           <button className="button" style={styles.button}>Speak to a Solution Expert</button>
         </div>
