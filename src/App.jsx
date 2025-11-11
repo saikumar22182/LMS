@@ -17,7 +17,7 @@ function App() {
   const coursesRef = useRef(null)
 
   return (
-     <Router basename="/LMS">
+     <Router>
       <Header
         onSearch={(q) => setSearchQuery(q)}
         onLogin={() => alert('Login clicked (demo)')}
