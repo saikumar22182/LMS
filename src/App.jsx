@@ -17,13 +17,12 @@ function App() {
   const coursesRef = useRef(null)
 
   return (
-    <Router>
+     <Router basename="/LMS">
       <Header
         onSearch={(q) => setSearchQuery(q)}
         onLogin={() => alert('Login clicked (demo)')}
       />
-     
-    
+         
       <Routes>
         <Route />
         <Route path="/" element={
